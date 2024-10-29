@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroVote - Forgot Password</title>
+    <link rel="stylesheet" href="3rdpage.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Left section for title and button -->
+        <div class="left-section">
+            <img src="logo.png" alt="ElectroVote Logo" class="logo">
+            <h1>Forgot The Password</h1>
+            <p>New Password</p>
+            <button class="learn-more-btn">Learn More</button>
+        </div>
+
+        <!-- Right section for form -->
+        <div class="right-section">
+            <div class="forgot-password-box">
+                <h2>Sign In</h2>
+                <form>
+                    <label for="vid">VID</label>
+                    <input type="text" id="vid" name="vid" placeholder="Enter your VID">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob">
+
+                    <div class="captcha">
+                        <input type="checkbox" id="robot-check">
+                        <label for="robot-check">I'm not a robot</label>
+                    </div>
+
+                    <div class="button-group">
+                        <a href="4thpage.html" class="btn primary">Sign Up</a>
+                        <!-- Button to navigate to 1stpage.html -->
+                        <button class="btn primary" onclick="location.href= '2ndpage.html'; return false;">Login</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

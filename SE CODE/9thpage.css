@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2E1D48;
+    font-family: 'Arial', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: left;
+    width: 350px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #3D2E59;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.rating-section {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.2em;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.stars {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.stars span {
+    font-size: 2em;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: color 0.3s;
+}
+
+.stars span:hover,
+.stars span:hover ~ span {
+    color: #FFD700;
+}
+
+.suggestions {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4A3A5E;
+    padding: 10px;
+    color: white;
+    font-size: 1em;
+    resize: none;
+}
+
+.char-limit {
+    text-align: right;
+    font-size: 0.8em;
+    color: #BCC0D4;
+    margin-top: 5px;
+}
+
+.submit-btn {
+    background-color: #BCC0D4;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    font-size: 1em;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #9FA3B8;
+}
+
+.brand {
+    text-align: center;
+    margin-top: 20px;
+    color: #BCC0D4;
+    font-size: 1.1em;
+}

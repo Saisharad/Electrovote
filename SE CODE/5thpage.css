@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0c0a20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.dashboard-container {
+    background-color: #1e1a3b;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    padding: 30px;
+    width: 500px;
+    max-width: 90%;
+    text-align: left;
+    position: relative;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.header p {
+    font-size: 1rem;
+    color: #89c9ff;
+    margin: 5px 0 20px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.elections {
+    background-color: #29264e;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.elections h2 {
+    margin: 0 0 10px;
+    font-size: 1.2rem;
+}
+
+.election-item {
+    background-color: #89c9ff;
+    color: #1e1a3b;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.additional-info {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.info-btn {
+    background-color: #89c9ff;
+    color: #1e1a3b;
+    border: none;
+    padding: 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.info-btn:hover {
+    background-color: #78b3e6;
+}
+
+.logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #89c9ff;
+}
+
+.logo h1 {
+    font-size: 1rem;
+    margin: 0;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ElectroVote Sign Up</title>
+    <link rel="stylesheet" href="4thpage.css">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <div class="logo">
+                <h1>ElectroVote</h1>
+            </div>
+            <h2>Create New Account</h2>
+            <p>Already Registered? <a href="#">Login</a></p>
+            <button class="learn-more">Learn More</button>
+        </div>
+        <div class="right">
+            <h2>Sign Up</h2>
+            <form>
+                <input type="text" placeholder="Name (as per Voter ID)" required>
+                <input type="text" placeholder="VID" required>
+                <input type="email" placeholder="Email ID" required>
+                <input type="date" placeholder="Date of Birth" required>
+                <div class="captcha">
+                    <input type="checkbox" id="not-robot" required>
+                    <label for="not-robot">I'm not a robot</label>
+                    <div class="recaptcha"></div>
+                </div>
+                <a href="5thpage.html" type="submit" class="signup-btn">Sign Up</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
